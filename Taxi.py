@@ -34,7 +34,7 @@ if list[0]<=list[1]:
     count+=list[1]
     list[1]=0
 elif list[0]>list[1]:
-    sum=list[0]+list[1]
+    sum=list[0]+(list[1]*2)
     count+=sum//4
     if sum%4<4 and sum%4!=0:
         count+=1
