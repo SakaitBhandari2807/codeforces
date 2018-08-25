@@ -12,15 +12,12 @@ for x in peopleInEachGroup:
 count=list[3]
 count+=list[2]
 
-if list[2]>list[0]:
+if list[2]>=list[0]:
     list[2]=0
     list[0]=0
 elif list[2]<list[0]:
     list[0]-=list[2]
     list[2]=0
-else:
-    list[2]=0
-    list[0]=0
 
 
 count+=list[1]//2
